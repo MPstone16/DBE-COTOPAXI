@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npx jest *)",
+      "Bash(awk '/^\\(PASS|FAIL\\)/{f=$2} /✓|√|✕/{c[f]++} END{for\\(k in c\\) print c[k], k}')",
+      "Bash(npx --yes create-expo-app@latest expo-template --template blank-typescript --no-install)",
+      "Bash(npm uninstall *)",
+      "Bash(npm install *)",
+      "Bash(npx expo *)",
+      "Bash(cd \"C:/Users/Usuario/Desktop/Mateo 4.0/U/5. Quinto Semestre/MOBILES/Deber-3/DBE-COTOPAXI\" && cat index.js babel.config.js metro.config.js; ls node_modules/@react-native-async-storage/async-storage/jest; ls node_modules/jest-expo/; cat ../../../../../../AppData/Local/Temp/claude/C--Users-Usuario-Desktop-Mateo-4-0-U-5--Quinto-Semestre-MOBILES-Deber-3-DBE-COTOPAXI/078fdac6-26e6-49ea-9384-9e5b6c7a52ea/scratchpad/expo-template/index.ts 2>/dev/null)",
+      "Bash(python -)",
+      "Bash(cat)",
+      "Bash(npx prettier *)",
+      "Bash(grep -vE \"^\\\\s*$\")",
+      "Bash(grep -E \"^\\(NotificationChannelManager|Notifications\\)\\\\.types\\\\.js$\")",
+      "Bash(npx --yes expo-doctor@latest)"
+    ]
+  }
+}

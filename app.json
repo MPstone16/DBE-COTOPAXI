@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Pomodoro Cotopaxi",
+    "slug": "pomodoro-cotopaxi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#141759",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.academiacotopaxi.pomodoro",
+      "adaptiveIcon": {
+        "backgroundColor": "#141759",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-notifications",
+        {
+          "color": "#D9A91A"
+        }
+      ]
+    ]
+  }
+}
